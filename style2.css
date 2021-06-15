@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+  padding:0;
+  min-height: 100vh;
+  background-image:url(MEYOU/indexb.png);
+  justify-content :center;
+  align-items: center;
+}
+img.logo1
+{
+  position:fixed;
+    top:50%;
+    left:50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 0;
+    width: 230px;
+    height: 220px;
+    align-items: center;
+    opacity: 0.5;
+    transition: .5s;
+    overflow: hidden;
+}
+img.logo1:hover
+{
+  opacity: 1;
+
+  transition-delay: 0.3s;
+    transition-duration :1s;
+}
